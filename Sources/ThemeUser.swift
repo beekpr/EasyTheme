@@ -1,7 +1,7 @@
 import Foundation
 
 /// Anything that wants to use theme
-@objc public protocol ThemeUser: class {}
+@objc public protocol ThemeUser: NSObjectProtocol {}
 
 public extension ThemeUser {
 
